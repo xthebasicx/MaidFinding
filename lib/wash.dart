@@ -25,7 +25,6 @@ class _washState extends State<wash> {
     final TextEditingController note = new TextEditingController();
     final hours = dateTime.hour.toString().padLeft(2, '0');
     final minutes = dateTime.minute.toString().padLeft(2, '0');
-
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 7, 172, 134),
